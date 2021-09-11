@@ -1,36 +1,51 @@
-# magento2-instagram-post-slider v1.0.0
-## Magento 2 Extension
+# Magento2 Instagram Post Slider
 
-### Free Magento 2 extension To show Instagram Post Slider on different pages i.e. Home, Category, product, checkout, and account page.
+Free Magento 2 extension To show Instagram Post Slider on different pages i.e. Home, Category, product, checkout, and account page.
 
+<img src="https://i.ibb.co/dGyPhMz/Magento2-instagram-post-slider.png" alt="Magento2-instagram-post-slider" border="0">
 
 ## Features:
+
 1. Easily add/manage Instagram feed on different pages
 2. Can show number of likes and comments on posts in slider
 3. Search by Hashtags to easily select and add images to slider
 4. Display hastags, number of likes and comments.
+5. Looks like core functionality of Magento (at backend as well as frontend)
+6. Unencrypted code for easy customization
 
-___________________________________________________________________________________________________
+# Installation Instruction
 
-### Screenshots:
-<img src="https://i.ibb.co/dGyPhMz/Magento2-instagram-post-slider.png" alt="Magento2-instagram-post-slider" border="0">
+* Copy the content of the repo to the <b>app/code/Excellence/Instagram/</b> folder
+* Run command:
+<b>php bin/magento setup:upgrade</b>
+* Run Command:
+<b>php bin/magento setup:static-content:deploy</b>
+* Now Flush Cache: <b>php bin/magento cache:flush</b>
+
+# Contribution
+
+Want to contribute to this extension? The quickest way is to <a href="https://help.github.com/articles/about-pull-requests/">open a pull request</a> on GitHub.
+
+# Screenshots & Support
+
+If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-buynow/issues">open an issue</a> on GitHub.
+
+<b>Store->Configuration->Excellence->Instagram->Instagram Cofiguration</b>
+
 <img src="https://i.ibb.co/Q9N7G2T/new.webp" alt="new" border="0">
-<img src="https://i.ibb.co/sFPw1BX/product-list.webp" alt="product-list" border="0">
-<img src="https://i.ibb.co/mbXnD6V/slider-list.webp" alt="slider-list" border="0">
+
+<b>Create Post Slider</b>
+
 <img src="https://i.ibb.co/5LXGPGR/selectedimage.webp" alt="selectedimage" border="0">
+
+<b>Manage Post Slider</b>
+
+<img src="https://i.ibb.co/mbXnD6V/slider-list.webp" alt="slider-list" border="0">
+
+<b>Widget Post Slider</b>
+
 <img src="https://i.ibb.co/RDgzRZq/widget.webp" alt="widget" border="0">
 
-___________________________________________________________________________________________________
-
-### Want to know more?
-
-<!-- ## Visit <a href='https://xmagestore.com/' target='_blank'>Magelumen Store</a> -->
-___________________________________________________________________________________________________
-## Need any help with installation and setup?
-
-<!-- ## Visit <a href='http://wiki.xmagestore.com/' target='_blank'>http://wiki.xmagestore.com/</a> -->
-
-___________________________________________________________________________________________________
 ## Prerequisites
 
 ### Use the following table to verify you have the correct prerequisites to install this Extension.
@@ -59,9 +74,6 @@ ________________________________________________________________________________
 </tbody>
 </table>
 
-___________________________________________________________________________________________________
-### Feedback and Support <a href="mailto:khannadeem243@gmail.com">nadeem Khan</a>
+### Feedback and Support 
 
-
-
-
+<a href="mailto:khannadeem243@gmail.com">khannadeem243@gmail.com</a>
