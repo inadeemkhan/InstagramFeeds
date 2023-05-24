@@ -1,0 +1,22 @@
+{
+    "name": "nadeem/module-instagram",
+    "description": "Magento2 extension to show instagram post slider on various pages.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nadeem\\Instagram\\": ""
+        }
+    }
+}

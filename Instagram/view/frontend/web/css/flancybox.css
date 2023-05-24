@@ -1,0 +1,53 @@
+.fancybox-inner {
+    margin: 0 auto;
+    width: 88%;
+}
+.fancybox-bg {
+    background-color: rgba(0,0,0,0.6);
+}
+
+button.fancybox-button.fancybox-button--arrow_left {
+    margin-left: 44px;
+}
+button.fancybox-button.fancybox-button--arrow_right {
+    margin-right: 44px;
+}
+.fancybox-toolbar {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.fancybox-infobar {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.fancybox-iframe {
+    height: 73vh;
+}
+
+.video-link{
+	position: absolute;
+    bottom: -65px;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+}
+iframe .fancybox-content {
+    height: 100%;
+    overflow: visible;
+    padding: 0;
+    width: 33%;
+}
+.fancybox-video, .fancybox-iframe {
+    background: transparent;
+    border: 0;
+    display: block;
+    height: 162%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 99%;
+}
+.fancybox-iframe {
+   
+    height: 160% !important;
+}

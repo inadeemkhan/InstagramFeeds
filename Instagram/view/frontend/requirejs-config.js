@@ -1,7 +1,10 @@
 var config = {
-    "map": {
-        "*": {
-            'image-slider':'Excellence_Instagram/js/owl.carousel.min'
+    paths: {
+        'fancybox': "Nadeem_Instagram/js/jquery.fancybox.min",
+    },
+    shim: {
+        'fancybox': {
+            deps: ['jquery'],
         }
     }
 };

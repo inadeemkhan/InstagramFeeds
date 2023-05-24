@@ -1,0 +1,13 @@
+.instagram-section .head {
+    text-align: center;
+}
+.instagram-section .head h2.heading {
+    font-size: 3em;
+    font-family: auto;
+    line-height: 35px;
+}
+.instagram-section .body-content a.instagramimages img {
+    padding: 5px;
+    max-width: 290px;
+    display: -webkit-inline-box;
+}
