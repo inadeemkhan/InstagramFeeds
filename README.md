@@ -15,7 +15,7 @@ Free Magento 2 extension To show Instagram Post Slider on different pages i.e. H
 
 # Installation Instruction
 
-* Copy the content of the repo to the <b>app/code/Excellence/Instagram/</b> folder
+* Copy the content of the repo to the <b>app/code/Nadeem/Instagram/</b> folder
 * Run command:
 <b>php bin/magento setup:upgrade</b>
 * Run Command:
