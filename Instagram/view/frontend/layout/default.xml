@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-	<head>
-		<css src="Excellence_Instagram::css/owl.theme.default.min.css"/>
-		<css src="Excellence_Instagram::css/owl.carousel.min.css"/>
-		<css src="Excellence_Instagram::css/product.css"/>
-	</head>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Nadeem_Instagram::css/jquery.fancybox.css"/>
+    </head>
 </page>

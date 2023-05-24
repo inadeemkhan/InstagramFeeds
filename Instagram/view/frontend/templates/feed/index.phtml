@@ -1,0 +1,54 @@
+<?php 
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+$title = $block->getHeadingText();
+$result = $block->getInstagramPostData();
+?>
+
+<div class="instagram-section">
+    <div class="head">
+        <h2 class="heading"><strong><?= /** @noEscape */ __($title) ?></strong></h2>
+    </div>
+    <div class="body-content">
+        <?php foreach($result["data"] as $post ): ?>
+            <?php $mediaUrl = isset($post["media_url"]) ? $post["media_url"] : ""; ?>
+            <?php $permaLink = isset($post["permalink"]) ? $post["permalink"] : ""; ?>
+            <?php $mediaType = isset($post["media_type"]) ? $post["media_type"] : ""; ?>
+            <?php $id = isset($post["id"]) ? $post["id"] : ""; ?>
+
+            <a href="<?= /** @noEscape */ __($mediaUrl) ?>" data-fancybox="images" class="instagramimages">
+                <?php if ($mediaType == "IMAGE"): ?>
+                    <img src="<?= /** @noEscape */ __($mediaUrl) ?>" id="<?= /** @noEscape */ __($id) ?>" alt='Image'/> 
+                <?php endif; ?>
+                <?php if ($mediaType == "VIDEO"): ?>
+                    <video controls width="207">
+                        <source src="<?= /** @noEscape */ __($mediaUrl) ?>" id="<?= /** @noEscape */ __($id) ?>" type="video/mp4">
+                    </video>
+                <?php endif; ?>
+                <input type="hidden" value="<?= /** @noEscape */ __($permaLink) ?>">
+            </a>
+        <?php endforeach; ?>
+    </div>
+</div>
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'fancybox',
+        'domReady!',
+    ],
+    function($) {
+		$( '[data-fancybox="images"]' ).fancybox({
+		    caption : function( instance, item ) {
+		        var permalink = $(this).find('input[type=hidden]').attr('value');
+		        var caption = $(this).data('caption') || '';
+		        if ( item.type === 'image' ) {
+		            caption = (caption.length ? caption + '<br />' : '') + '<a target="_blank" href="' + permalink + '"  class="viewurl">View Url</a>' ;
+		        }
+		        return caption;
+		    }
+	    });
+	});
+</script>
