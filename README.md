@@ -28,9 +28,9 @@ Want to contribute to this extension? The quickest way is to <a href="https://he
 
 # Screenshots & Support
 
-If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-buynow/issues">open an issue</a> on GitHub.
+If you encounter any problems or bugs, please <a href="https://github.com/inadeemkhan/magento2-instagram-post-slider/issues">open an issue</a> on GitHub.
 
-<b>Store->Configuration->Excellence->Instagram->Instagram Cofiguration</b>
+<b>Store->Configuration->Nadeem->Instagram->Instagram Cofiguration</b>
 
 <img src="https://i.ibb.co/Q9N7G2T/new.webp" alt="new" border="0">
 
