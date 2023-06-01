@@ -2,6 +2,7 @@
     "name": "nadeem/module-instagram",
     "description": "Magento2 extension to show instagram post slider on various pages.",
     "type": "magento2-module",
+    "version": 1.0.0
     "license": "proprietary",
     "authors": [
         {
